@@ -2,6 +2,14 @@
 
 This is a Node.js application that uses the Express framework and MongoDB database to fetch and display data in a table format. The frontend of the application is developed using React
 
+## Deployed url
+
+### Frontend
+https://mobilicis-assignment.vercel.app/
+
+### Backend
+https://vast-tan-gopher-hat.cyclic.app/
+
 ## Setup
 
 To run this application, you need to follow these steps:
