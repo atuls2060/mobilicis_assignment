@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import Table from "./components/Table";
+import UsersTable from "./components/UsersTable";
+import TopCityTable from "./components/TopCityTable";
 import axios from "axios"
 
 function App() {
@@ -35,7 +36,7 @@ function App() {
       </select>
       {
         loading ? <h2>Loading...</h2> :
-          <Table users={users} captionIdx={query} />
+          query != 5 ? <UsersTable users={users} captionIdx={query} /> : <TopCityTable cities={users} />
       }
     </>
   );

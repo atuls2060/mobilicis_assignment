@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TableRow = ({ sn, user }) => {
+const UsersTableRow = ({ sn, user }) => {
     return (
         <tr>
             <td>{sn}</td>
@@ -17,4 +17,4 @@ const TableRow = ({ sn, user }) => {
     )
 }
 
-export default TableRow
+export default UsersTableRow
